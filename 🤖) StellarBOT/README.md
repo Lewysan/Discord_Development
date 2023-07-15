@@ -1,0 +1,3 @@
+# StellarBOT
+  * NPM
+  * Nodemon

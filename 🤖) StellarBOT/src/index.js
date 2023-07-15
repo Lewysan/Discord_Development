@@ -7,5 +7,5 @@ client.on('ready', () =>
   {
     console.log("✔ El bot está listo para ser usado.");
 })
-
+// Keep coding here..
 client.login(config.TOKEN);

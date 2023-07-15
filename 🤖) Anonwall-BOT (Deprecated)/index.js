@@ -21,7 +21,7 @@ client.on("message", (message) => {
         var minutos = date.getMinutes();
         return message.channel.send("Tiempo actual: "+horas+":"+minutos);
     }
-    if (command === "help"){
+    if (message.content === "help"){
         return message.channel.send("Si necesitas ayuda contacta con el dueño: Tyranzx#0296");
     }
 });

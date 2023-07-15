@@ -15,12 +15,7 @@ client.on('ready', () => {
 
 client.on("message", (message) => {
 
-    if (!message.content.startsWith(config.PREFIX)) return;
-
-    const args = message.content.slice(config.PREFIX.length).trim().split(/ +/g);
-    const command = args.shift().toLowerCase();
-
-    if (command === "prueba"){
+    if (message.content === "prueba"){
         var date = new Date();
         var horas = date.getHours();
         var minutos = date.getMinutes();
